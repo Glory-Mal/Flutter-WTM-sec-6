@@ -32,9 +32,20 @@ class MyApp extends StatelessWidget {
                     fontSize: 40.0,
                     fontWeight: FontWeight.bold,
                     fontFamily: 'Source Sans Pro',
-                    letterSpacing:2.5,
-
-                  ))
+                    letterSpacing: 2.5,
+                  )),
+              Container(
+                child: Row(
+                  children: <Widget>[
+                    Icon(
+                      Icons.phone,
+                      color: Colors.white,
+                      size: 50.0,
+                    ),
+                    Text('+255783435464')
+                  ],
+                ),
+              ),
             ],
           ),
         ),
